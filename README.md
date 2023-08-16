@@ -1,7 +1,7 @@
 # Ken's Doughnuts Relational Database Management System
 
 ## Problem Statement
-The client Ken is opening up a new doughnut shops. This project require as to build a Relational Database Management System that will allow him to store all of important information.
+The client Ken is opening up a new doughnut shops. This project require us to build a Relational Database Management System that will allow him to store all of important information.
 
 Main area of focus :
 - Orders
