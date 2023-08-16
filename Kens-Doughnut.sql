@@ -1,4 +1,5 @@
-"""dashboard 1"""
+-- dashboard 1
+
 SELECT
     o.order_id,
     i.item_price,
@@ -16,8 +17,8 @@ FROM orders o
     LEFT JOIN address a ON o.add_id=a.add_id
 ;
 
-"""dashboard 2"""
-"""no 1&2"""
+-- dashboard 2
+-- No. 1&2
 
 SELECT 
     s1.item_name,
@@ -56,7 +57,7 @@ FROM
         ing.ing_price) s1
 ;
 
-"""no.3"""
+-- No. 3
 SELECT
     s2.ing_name,
     s2.ordered_weight,
@@ -109,7 +110,7 @@ FROM
 LEFT JOIN inventory inv ON inv.item_id=s2.ing_id
 LEFT JOIN ingredient ing ON ing.item_id = s2.ing_id;
 
-"""no.4"""
+-- No. 4
 
 SELECT
 r.date,
